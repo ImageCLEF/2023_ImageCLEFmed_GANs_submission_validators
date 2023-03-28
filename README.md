@@ -30,4 +30,4 @@ python3 ./evaluator.py ./test_runs/00_1_OK.csv
 #### Unit tests (optional)
 
 In case you want to execute the unit tests, change your current working directory to `./task1/test_runs` and execute `python3 test.py`.
-All unit tests should pass.
+All unit tests should pass. You can find more information in `README.md` in `./task1/test_runs`.

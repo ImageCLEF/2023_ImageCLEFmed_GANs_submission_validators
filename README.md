@@ -26,3 +26,8 @@ Please make sure you are using Python 3.2 or above.
 cd ./task1
 python3 ./evaluator.py ./test_runs/00_1_OK.csv
 ```
+
+#### Unit tests (optional)
+
+In case you want to execute the unit tests, change your current working directory to `./task1/test_runs` and execute `python3 test.py`.
+All unit tests should pass.

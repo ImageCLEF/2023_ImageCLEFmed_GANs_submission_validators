@@ -60,7 +60,7 @@ class ImageCLEFGansTask1Validator:
                 self._raise_exception(
                     "Number of figure IDs in submission file not equal to number of figure IDs in testset.", line_nbr)
 
-            print("The format os your submission file '{}' is correct. Good Job!".format(
+            print("The format of your submission file '{}' is correct. Good Job!".format(
                 submission_file_path))
 
     def _raise_exception(self, message, line_nbr, *args):

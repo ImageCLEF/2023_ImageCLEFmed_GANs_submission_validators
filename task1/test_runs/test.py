@@ -1,8 +1,8 @@
 import unittest
 import sys
 sys.path.append('..')
-from evaluator import ImageCLEFGansTask1Validator
-from evaluator import SubmissionValidationException
+from validator import ImageCLEFGansTask1Validator
+from validator import SubmissionValidationException
 
 image_ids_file_path = "../resources/image_ids.txt"
 

@@ -74,7 +74,7 @@ class SubmissionValidationException(Exception):
 
 if __name__ == "__main__":
 
-    usage_message = "Usage: evaluator.py submission_file_path"
+    usage_message = "Usage: validator.py submission_file_path"
 
     if len(sys.argv) != 2 or (len(sys.argv) == 2 and str(sys.argv[1]) == '--help'):
         print(usage_message)

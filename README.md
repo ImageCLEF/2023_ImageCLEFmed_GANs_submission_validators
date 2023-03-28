@@ -17,14 +17,14 @@ Please make sure you are using Python 3.2 or above.
 
 #### Usage
 
-- In order to use the validator you have to execute the script `evaluator.py` in the folder `task1`
+- In order to use the validator you have to execute the script `validator.py` in the folder `task1`
 - Please make sure that your current working directory is `task1`, otherwise errors will show up
-- Provide a submission file path as the only argument to `evaluator.py`
+- Provide a submission file path as the only argument to `validator.py`
 
 *Example*:
 ```bash
 cd ./task1
-python3 ./evaluator.py ./test_runs/00_1_OK.csv
+python3 ./validator.py ./test_runs/00_1_OK.csv
 ```
 
 #### Unit tests (optional)
